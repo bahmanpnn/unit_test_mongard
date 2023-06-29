@@ -20,6 +20,12 @@ def test_multiply():
     assert main_nose.multiply(0,5)==0
     assert main_nose.multiply(3,4)!=11
 
+def test_division():
+    assert main_nose.division(10,2)==5
+    assert main_nose.division(-1,5)==-0.2
+    assert main_nose.division(4,5)==0.8
+
+
 #nosetest worked on unittest class too!!   
 # class Main_NoseTest(unittest.TestCase):
 
@@ -50,9 +56,4 @@ def test_multiply():
 # if __name__=='__main__':
 #     unittest.main()
 
-    
 
-def test_division():
-    assert main_nose.division(10,2)==5
-    assert main_nose.division(-1,5)==-0.2
-    assert main_nose.division(4,5)==0.8
